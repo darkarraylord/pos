@@ -23,6 +23,18 @@
  * @package     Mage_Core
  * @copyright   Copyright (c) 2006-2017 X.commerce, Inc. and affiliates (http://www.magento.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+
+
+                    <host><![CDATA[localhost]]></host>
+                    <username><![CDATA[root]]></username>
+                    <password><![CDATA[]]></password>
+                    <dbname><![CDATA[magento]]></dbname>
+                    <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
+                    <model><![CDATA[mysql4]]></model>
+                    <type><![CDATA[pdo_mysql]]></type>
+                    <pdoType><![CDATA[]]></pdoType>
+                    <active>1</active>
+
  */
 -->
 <config>
@@ -40,10 +52,10 @@
             </db>
             <default_setup>
                 <connection>
-                    <host><![CDATA[localhost]]></host>
-                    <username><![CDATA[root]]></username>
-                    <password><![CDATA[]]></password>
-                    <dbname><![CDATA[magento]]></dbname>
+                    <host><![CDATA[spdbserver.cpqbgzv5em5i.sa-east-1.rds.amazonaws.com]]></host>
+                    <username><![CDATA[magmanager]]></username>
+                    <password><![CDATA[94c0f3e6c1c51e3fcb428b566]]></password>
+                    <dbname><![CDATA[MAGENTO]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
                     <type><![CDATA[pdo_mysql]]></type>

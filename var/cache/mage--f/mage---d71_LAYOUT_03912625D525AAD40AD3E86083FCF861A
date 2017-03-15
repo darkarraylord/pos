@@ -1,9 +1,0 @@
-<reference name="root">
-   <block type="xpos/adminhtml_override_load" name="content"/>
-</reference>
-<reference name="content">
-   <block type="xpos/adminhtml_index_orderlist_saved" name="order_saved"/>
-</reference>
-<reference name="content">
-   <block type="page/html" name="message" template="sm/xpos/index/messages.phtml"/>
-</reference>
